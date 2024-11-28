@@ -7,7 +7,7 @@ sqlite_cursor = sqlite_conn.cursor()
 
 db_name = 'customer_order'
 client = MongoClient("mongodb://localhost:27017/customer_order.db")
-
+#test
 
 db = client.get_database(db_name)
 movies = db.get_collection('product')
